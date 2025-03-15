@@ -1,6 +1,6 @@
 /* === Global Styles === */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #0a192f;
     color: #ccd6f6;
     margin: 0;
@@ -12,11 +12,13 @@ header {
     text-align: center;
     padding: 40px;
     background-color: #112240;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
     font-size: 2.5rem;
     color: #64ffda;
+    margin-bottom: 10px;
 }
 
 header h2 {
@@ -24,10 +26,16 @@ header h2 {
     color: #8892b0;
 }
 
+header p {
+    font-size: 1.2rem;
+    color: #ccd6f6;
+}
+
 header a {
     color: #64ffda;
     text-decoration: none;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 header a:hover {
@@ -36,9 +44,12 @@ header a:hover {
 
 /* === Section Styling === */
 section {
-    max-width: 800px;
-    margin: auto;
-    padding: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #112240;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
